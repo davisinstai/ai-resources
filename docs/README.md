@@ -19,4 +19,4 @@ Each tool or resource is accompanied by:
 
 # Speech Recognition
 
-* [Whisper](notebooks/FiveMinutesWithAI_Whisper.ipynb)
+* [Whisper](https://davisinstai.github.io/ai-resources/notebooks/FiveMinutesWithAI_Whisper.ipynb)
