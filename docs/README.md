@@ -23,4 +23,4 @@ Each tool or resource is accompanied by:
 
 # Pose Detection
 
-* [OpenPose](https://github.com/davisinstai/ai-resources/notebooks/FiveMinutesWithAI-OpenPose.ipynb)
+* [OpenPose](https://github.com/davisinstai/ai-resources/blob/cf0ca7c3be7be5e6f2614dd67cd86fafc452b89f/docs/notebooks/FiveMinutesWithAI-OpenPose.ipynb)
