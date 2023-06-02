@@ -20,3 +20,7 @@ Each tool or resource is accompanied by:
 # Speech Recognition
 
 * [Whisper](https://davisinstai.github.io/ai-resources/notebooks/FiveMinutesWithAI_Whisper.ipynb)
+
+# Pose Detection
+
+* [OpenPose](https://davisinstai.github.io/ai-resources/notebooks/FiveMinutesWithAI-OpenPose.ipynb)
