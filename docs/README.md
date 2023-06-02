@@ -19,8 +19,16 @@ Each tool or resource is accompanied by:
 
 # Speech Recognition
 
-* [Whisper](https://davisinstai.github.io/ai-resources/notebooks/FiveMinutesWithAI_Whisper.ipynb)
+* [Whisper](https://github.com/davisinstai/ai-resources/blob/2ae081cdc9c40d55e17a0d79db8d23c0c23f9061/docs/notebooks/FiveMinutesWithAI_Whisper.ipynb)
 
 # Pose Detection
 
 * [OpenPose](https://github.com/davisinstai/ai-resources/blob/cf0ca7c3be7be5e6f2614dd67cd86fafc452b89f/docs/notebooks/FiveMinutesWithAI-OpenPose.ipynb)
+
+# Facial Action Detection
+
+* [PyFeat](https://github.com/davisinstai/ai-resources/blob/2ae081cdc9c40d55e17a0d79db8d23c0c23f9061/docs/notebooks/FiveMinutesWithAI-Pyfeat.ipynb)
+
+# Speech Analysis
+
+* [Praat](https://github.com/davisinstai/ai-resources/blob/2ae081cdc9c40d55e17a0d79db8d23c0c23f9061/docs/notebooks/FiveMinuteswithAI-Praat.ipynb)
