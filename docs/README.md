@@ -17,8 +17,6 @@ Each tool or resource is accompanied by:
 
 * [Constellate](https://constellate.org/)
 
-### Short Description of Constellate
-
 # Speech Recognition
 
 * [Whisper](https://github.com/davisinstai/ai-resources/blob/2ae081cdc9c40d55e17a0d79db8d23c0c23f9061/docs/notebooks/FiveMinutesWithAI_Whisper.ipynb)
