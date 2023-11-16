@@ -1,0 +1,37 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Whisper Notebook Test 
+
+# Controls when the workflow will run
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  schedule: 
+    - cron: '0 0 * * *' # Runs every day at midnight
+  workflow_dispatch:  #Enables manual triggering of the workflow
+
+jobs:
+  test-notebooks:
+    runs-on: ubuntu-latest
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v3
+
+      # Set up Python
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+            python-version: '3.10' 
+
+      # Install a list of dependencies needed to run the notebooks
+      - name: Install Dependencies
+        run: |
+          pip install nbconvert
+          pip install jupyter
+          pip install -U openai-whisper  #I think we would want one workflow for all notebooks
+
+      - name: Execute Specific Notebook
+        run: |
+          jupyter nbconvert --to notebook --execute ai-resources/docs/notebooks/FiveMinutesWithAI_Whisper.ipynb
