@@ -30,7 +30,10 @@ jobs:
         run: |
           pip install nbconvert
           pip install jupyter
+          
+      - name: Install ffmpeg #Needed for Whisper to work
+        run: sudo apt-get install -y ffmpeg
 
       - name: Execute Specific Notebook
         run: |
-          jupyter nbconvert --to notebook --execute docs/notebooks/FiveMinutesWithAI-Pyfeat.ipynb
+          jupyter nbconvert --to notebook --execute docs/notebooks/FiveMinutesWithAI-Whisper.ipynb
