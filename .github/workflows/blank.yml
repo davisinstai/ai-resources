@@ -33,4 +33,4 @@ jobs:
           
       - name: Execute Specific Notebook
         run: |
-          jupyter nbconvert --to notebook --execute docs/notebooks/FiveMinutesWithAI-Whisper.ipynb
+          jupyter nbconvert --to notebook --execute docs/notebooks/FiveMinutesWithAI_Whisper.ipynb
