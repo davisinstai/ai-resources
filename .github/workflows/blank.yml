@@ -30,8 +30,7 @@ jobs:
         run: |
           pip install nbconvert
           pip install jupyter
-          pip install -U openai-whisper  #I think we would want one workflow for all notebooks
 
       - name: Execute Specific Notebook
         run: |
-          jupyter nbconvert --to notebook --execute docs/notebooks/FiveMinutesWithAI_Whisper.ipynb
+          jupyter nbconvert --to notebook --execute docs/notebooks/FiveMinutesWithAI-Pyfeat.ipynb
