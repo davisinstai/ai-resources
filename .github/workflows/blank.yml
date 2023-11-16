@@ -34,6 +34,11 @@ jobs:
       - name: Install ffmpeg #Needed for Whisper to work
         run: sudo apt-get install -y ffmpeg
 
+      - name: Verify ffmpeg Installation
+        run: |
+          ffmpeg -version
+          which ffmpeg
+          
       - name: Execute Specific Notebook
         run: |
           jupyter nbconvert --to notebook --execute docs/notebooks/FiveMinutesWithAI-Whisper.ipynb
